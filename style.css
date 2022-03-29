@@ -27,7 +27,10 @@ nav {
 .searchInput {
   border: none;
   background-color: transparent;
+  outline: none;
+  color: white;
 }
+
 .searchInput::placeholder {
   color: lightgray;
 }
