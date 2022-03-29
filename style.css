@@ -1,0 +1,44 @@
+body {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  background-color: #111;
+  color: white;
+  padding: 10px 50px;
+}
+.navbarTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.searchInput {
+  border: none;
+  background-color: transparent;
+}
+.searchInput::placeholder {
+  color: lightgray;
+}
+.limitedOffer {
+  font-size: 20px;
+  border-bottom: 2px solid green;
+}
+.navbarBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuItem {
+  margin-right: 50px;
+  cursor: pointer;
+  color: lightgray;
+  font-weight: 400;
+}
