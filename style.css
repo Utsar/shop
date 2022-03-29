@@ -34,6 +34,11 @@ nav {
 .limitedOffer {
   font-size: 20px;
   border-bottom: 2px solid green;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+  color: white;
 }
 .navbarBottom {
   display: flex;
